@@ -1,11 +1,11 @@
-    window.onload = function(){
+
         addtag();//生成标签
         adddivline();//生成分割线
         tagsMove();//条目加载动画
         tagsviewH();//控制标签展示盒子的高度
         changeTagsArea();//实时触发根据下拉选项显示条目
         sechtags();//通过输入筛选条目
-    }
+
 //控制标签展示盒子的高度
     function tagsviewH(){
         var tagsContainer = document.getElementById('tags-container');
