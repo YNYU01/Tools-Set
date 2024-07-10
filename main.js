@@ -48,21 +48,6 @@
     
     
 
-    window.onload = function(){
-        adddiv()//定义和注册自定义标签
-        //changeTab(0);//默认选中tab1
-        addtag();//生成标签
-        adddivline();//生成分割线
-        tagsMove();//条目加载动画
-        tagsviewH();//控制标签展示盒子的高度
-        changeTagsArea();//实时触发根据下拉选项显示条目
-        sechtags();//通过输入筛选条目
-
-       
-
-    
-    }
-
 
     //定义和注册自定义标签
     function adddiv(){
