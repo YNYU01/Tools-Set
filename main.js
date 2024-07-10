@@ -57,6 +57,10 @@
         tagsviewH();//控制标签展示盒子的高度
         changeTagsArea();//实时触发根据下拉选项显示条目
         sechtags();//通过输入筛选条目
+
+       
+
+    
     }
 
 
@@ -173,7 +177,8 @@
 
         
     }
-//控制标签展示盒子的高度
+
+    //控制标签展示盒子的高度
     function tagsviewH(){
         var tagsContainer = document.getElementById('tags-container');
         var cornerBadge = document.getElementById('tags-container-height');
@@ -520,4 +525,27 @@
         }
 
 
-   
+
+        /*
+        var minW = Number(taglistall[0].w)
+        var maxW = Number(taglistall[0].w)
+        var minH = Number(taglistall[0].h)
+        var maxH = Number(taglistall[0].h)
+        for (var i = 1; i < tL; i++){
+            if ( taglistall[i].h < minH){
+                minH = taglistall[i].h
+            } else if(taglistall[i].h > maxH) {
+                maxH = taglistall[i].h
+            }
+            
+            if ( taglistall[i].h < minH){
+                minH = taglistall[i].h
+            } else if(taglistall[i].h > maxH) {
+                maxH = taglistall[i].h
+            }
+
+        }
+
+       log1.innerHTML = '<span style="color:#aeaeae">' + 'minH:' + '</span>' + minH + '<span style="color:#aeaeae"> ; ' + 'maxH:' + '</span>' + maxH
+       */
+    }
