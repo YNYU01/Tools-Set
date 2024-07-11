@@ -160,6 +160,9 @@
         document.getElementsByClassName("content")[index].style.display = "block";
         tablinks[index].className += " active";
 
+        if(index == 0){
+            tagsMove()
+        }
         
     }
 
