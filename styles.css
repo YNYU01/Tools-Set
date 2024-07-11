@@ -1,9 +1,4 @@
-:root{
-        --mainColor:#acacac;
-        --boxBod:#5d5d5d;
-        --boxBak:#1c1c1c;
-        --liColor1:#b85e5e;
-    }
+
 
     body {
         display: flex;
@@ -81,9 +76,7 @@
         color: var(--mainColor);
     }
     .btn-main:hover{
-        border: 1px solid var(--boxBod);
-        background-color: var(--boxBak);
-        color: var(--boxBod);
+        opacity: 0.5;
     }
 
     .btn-text{
