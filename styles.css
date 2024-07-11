@@ -66,6 +66,12 @@
         display: flex;
         flex-direction: column;
         position: relative;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }
+
+    .page-box::-webkit-scrollbar {
+        display: none;
     }
 
     .btn-main{
