@@ -146,25 +146,7 @@
         customElements.define('user-excel', userexcel);
     }
 
-    //切换tab
-    function changeTab(index) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("content");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tab");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace("active", "");
-        }
-        document.getElementsByClassName("content")[index].style.display = "block";
-        tablinks[index].className += " active";
-
-        if(index == 0){
-            tagsMove()
-        }
-        
-    }
+   
 
     //控制标签展示盒子的高度
     function tagsviewH(){
