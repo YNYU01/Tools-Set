@@ -55,7 +55,7 @@
     .tab.active {
         background-color: var(--boxBak);
         color: #ffffff;
-        padding:0px 4px;
+        padding:4px 0px;
     }
 
     .tab-content{
