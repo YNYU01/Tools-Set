@@ -241,7 +241,8 @@
         var movetime ;
         function movetags(){
             if (e < tL){
-                log1.innerHTML = '已加载条目： ' + e
+                log1.innerHTML = "tab" + (index + 1);
+                log1.innerHTML += '已加载条目： ' + e
                 var S = tL - e + 1;
                 var tagsmoves = document.getElementById('tags-list-' + e);
                 tagsmoves.style.transform = 'translateX(0px)'; 
