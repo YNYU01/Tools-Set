@@ -5,21 +5,31 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        position: relative;
+        background-color: #222222;
         padding: 10px 10px 0px 10px;
+        /* 全局文字 */
         font-family: Arial, Helvetica, sans-serif;
         font-size: 12px;
         font-weight: 500;
         color:var(--mainColor);
-        position: relative;
-        background-color: #222222;
+        letter-spacing: 0.01em;
+        /* 禁止复制*/
         -webkit-user-select: none; /* Safari */
         -moz-user-select: none; /* Firefox */
         -ms-user-select: none; /* IE/Edge */
         user-select: none; /* 标准语法 */
+        /* 锐化 */
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        letter-spacing: 0.01em;
+        /* 全局滚动 */
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
     }
 
     .tabs{
