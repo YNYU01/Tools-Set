@@ -32,25 +32,6 @@
         display: none;
     }
 
-    
-    .tab-content{
-        width: 100%;
-        min-width: 320px;
-        max-width:520px;        
-        position: relative;
-    }
-
-    .content {
-        display: none;
-        height: 450px;
-        padding: 12px;
-        margin-top: -1px;
-        border: 1px solid var(--boxBod);
-        background-color: var(--boxBak);
-        border-radius：var(--tabBR)
-        position: relative;
-    }
-
     .page-box{
         height: 440px;
         display: flex;
