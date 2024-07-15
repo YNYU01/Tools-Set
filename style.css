@@ -32,34 +32,7 @@
         display: none;
     }
 
-    .tabs{
-        width: 100%;
-        min-width: 320px;
-        max-width:520px;
-        padding: 0px 0px;
-        cursor: pointer;
-        display: flex;
-        position: relative;
-    }
-
-    .tab {
-        width: 100ch;  
-        padding: 8px 0px;
-        margin-right: -1px;
-        display: flex;
-        justify-content: center;
-        border: 1px solid var(--boxBod);
-        text-align: center;
-        position: relative;
-    }
-
-    .tab.active {
-        background-color: var(--boxBak);
-        color: #ffffff;
-        padding:8px 8px;
-        position: relative;
-    }
-
+    
     .tab-content{
         width: 100%;
         min-width: 320px;
